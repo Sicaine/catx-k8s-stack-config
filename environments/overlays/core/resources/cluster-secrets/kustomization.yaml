@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  # ArgoCD Cluster secrets to access remote k8s clusters
+  - beta-cluster-secret.yaml
+  - dev-cluster-secret.yaml
+  - devsecops-testing-cluster-secret.yaml
+  - hotel-budapest-secret.yaml
+  - pre-prod-cluster-secret.yaml
+  - vault-cluster-secret.yaml
