@@ -2,3 +2,13 @@ server:
   ## Prometheus server container name
   ##
   name: server-lalaland
+
+persistentVolume:
+  ## Prometheus server data Persistent Volume labels
+  ##
+  labels:
+    pvc: lalaLand
+
+  ## Prometheus server data Persistent Volume size
+  ##
+  size: 1Gi
