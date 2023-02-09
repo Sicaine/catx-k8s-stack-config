@@ -12,3 +12,8 @@ persistentVolume:
   ## Prometheus server data Persistent Volume size
   ##
   size: 1Gi
+
+ingress:
+  ## If true, Prometheus server Ingress will be created
+  ##
+  enabled: true
