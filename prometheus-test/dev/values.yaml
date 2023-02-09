@@ -1,7 +1,8 @@
 server:
   ## Prometheus server container name
   ##
-  name: server-lalaland
+#  name: server-lalaland
+  name: lalaland
 
 persistentVolume:
   ## Prometheus server data Persistent Volume labels
